@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+.site-wrapper {
+  padding: 2rem;
+  min-height: 100vh;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: aside;
+  text-align:center;
+  position:relative;
+}
+.text{
+  position:absolute;
+  top:135px;
+  font-family:sans-serif;
+  font-weight:bold;
+  width:250px;
+  right:100px;
+}
+.text1{
+  font-size:1.5rem;
+  margin-top:15px;
+  margin-left:2rem;
+  letter-spacing:2px;
+  font-weight:bold;
+  width:10px;
+}
+footer {
+  grid-area: footer;
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+.site-nav {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.site-nav ul {
+  margin: 0;
+  margin-right:20px;
+  list-style: none;
+  display: flex;
+}
+.site-nav a {
+  text-decoration: none;
+  margin:50px;
+  font-family:Franklin Gothic Medium;
+  font-size:20px;
+  color: #1d1d1d;
+}
+.site-nav a:hover{
+  background:#eee;
+  transition:0.4s;
+  padding:5px;
+  border-radius:7px;
+}
+.site-nav li + li a {
+  margin-left: 0.5rem;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.button + .button {
+  margin-left: 0.5rem;
+}
+.fas{
+  font-size:25px;
+  margin-right:35px;
+  color:#1d1d1d;
+}
+
+
+
+
+
+.myrows{
+  border: 3px solid green;
+  padding: 5px;
+}
+.mycols{
+  border: 3px solid red;
+}
+.mycontainer{
+  background-color: aqua;
+}
+#topHeader{
+  border-bottom: 1px solid #ebebeb;
+}
+.navbar-nav{
+
+
+  color: #482ff7;
+  border-color: transparent;
+}
+#topHeader a{
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+nav ul li a {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+ .input-group{
+width: 90%;
+max-width: 500px;
+}
+
+/* START : Footer */
+.full-footer{
+  background-color: #243c4f;
+  
+}
+.top-footer p{
+  color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+.top-footer h3{
+  color: white;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: white;
+}
+
+/* END : Footer */
+
+/* Start : Home page first hero section */
+.top-hero-section{
+background-color: #3498db;
+color: white;
+}
+.top-hero-section a{
+  color: white;
+  font-weight: 600;
+}
+.qualities-img{
+  width:200px;
+}
+/* END : Home page first hero section */
+
+/* START : Home page 3rd requirement section */
+.requirements-section{
+  background-color: #004d80;
+
+  color: white;
+}
+/* END : Home page 3rd requirement section */
+
+
+/* START : Home page 4rd newsletter section */
+.home-newsletter{
+  background-color: #004d80;
+  color: white;
+}
+.home-newsletter .form-control {
+	height: 50px;
+	border-color: transparent;
+	border-radius: 20px 0 0 20px;
+}
+.home-newsletter .btn {
+	min-height: 50px;
+	border-radius: 0 20px 20px 0;
+	background: #be0280;
+	color: #fff;
+}
+
+/* END : Home page 4rd newsletter section */
+
+
+.clients-section{
+  background-color: #f0f0f0;
+}
+
+/* END-------------------- of home page ---------------------- */
+
+/* START-------------------- of About page ---------------------- */
+.breadcrumbs-section{
+  background-color: #e9ecef;
+}
+/* END-------------------- of About page ---------------------- */
+
+/* START-------------------- of Contact Us Page ---------------------- */
+.address p{
+  font-weight: 600;
+
+}
+
+.bar{
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 17px;
+  border: 1px solid rgb(63, 71, 80);
+}
+
+
+
+
